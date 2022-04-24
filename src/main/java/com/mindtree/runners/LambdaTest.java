@@ -131,7 +131,7 @@ public class LambdaTest {
 			driver.get("https://www.lambdatest.com/selenium-playground");
 
 			driver.findElement(By.xpath("//*[@class='cookie__bar__close hover:underline smtablet:hidden']")).click();
-			Thread.sleep(5000L);
+			//Thread.sleep(5000L);
 
 			driver.findElement(By.xpath("//*[@href='https://www.lambdatest.com/selenium-playground/input-form-demo']")).click();
 
